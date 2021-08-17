@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A playground to test code snippets of the debris language.">
+
+  <title>Debris-Playground</title>
+  <!-- <link href="themes/prism.css" rel="stylesheet" /> -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+  <section class="toolbar">
+    <div class="dropdown" id="example_dropdown">
+      <button class="dropdown_button">Select Example</button>
+      <div class="dropdown_content" id="example_dropdown_list">
+        Loading... Please wait
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropdown_button" id="build_mode">Build Mode: Debug</button>
+      <div class="dropdown_content">
+        <a id="btn_release">Release</a>
+        <a id="btn_debug">Debug</a>
+      </div>
+    </div>
+    <button id="permalink">Create Permalink</button>
+    <button id="download">Download Datapack</button>
+    <a id="repo_link" href="https://github.com/Inky-developer/debris"><img src="./github_logo.png" alt="Visit the debris repository at github"></a>
+  </section>
+  <section class="container">
+    <div class="editor" id="code_input"></div>
+    <div class="editor" id="code_output"></div>
+    <div class="editor" id="code_print"></div>
+  </section>
+  <footer class="bottom_banner" id="error_banner"><span>An error occured</span></footer>
+  <!-- <script src="prism.js"></script> -->
+  <script src="./bootstrap.js"></script>
+</body>
+
+</html>
