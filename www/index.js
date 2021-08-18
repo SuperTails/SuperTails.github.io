@@ -75,18 +75,6 @@ const output_editor = new EditorView({
     parent: document.getElementById("code_output"),
 });
 
-const print_editor_extensions = [
-    EditorView.editable.of(() => false),
-    defaultHighlightStyle.fallback,
-    mc_lang(),
-];
-const print_editor = new EditorView({
-    state: EditorState.create({
-        extensions: print_editor_extensions
-    }),
-    parent: document.getElementById("code_print"),
-});
-
 let initial_code = localStorage.getItem("last_code");
 // Overwrite the initial code if the url specifies something specific
 const url_search_params = new URLSearchParams(window.location.search);
