@@ -2,9 +2,9 @@ name: Build
 
 on:
   push:
-    branches: [ master ]
+    branches: [ thingy ]
   pull_request:
-    branches: [ master ]
+    branches: [ thingy ]
   schedule:
     # Run this workflow every day
     - cron: '0 0 * * *'
