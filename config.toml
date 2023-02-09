@@ -53,8 +53,7 @@ smart_punctuation = false
         nav = [
             { name = "Home", url = "@/_index.md", icon = "bi-house" },
             { name = "Projects", url = "@/projects/_index.md", icon = "bi-terminal" },
-            { name = "Author", url = "https://SuperTails.github.io/", icon = "bi-person" }, # TODO:
-            { name = "About", url = "https://github.com/SuperTails/ataraxia-zola", icon = "bi-question-octagon" }
+            { name = "About Me", url = "@/about/index.md", icon = "bi-person" },
         ]
     
     [extra.social]
