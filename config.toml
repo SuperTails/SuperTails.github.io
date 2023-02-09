@@ -65,9 +65,9 @@ smart_punctuation = false
             { name = "LinkedIn", url = "https://www.linkedin.com/in/carson-swoveland-b45116231/", icon = "bi-linkedin" },
         ]
 
-	# TODO:
-    #[extra.seo]
-    #    google_analytics = "G-0123456789"
+    [extra.seo]
+        google_analytics = "G-X7Q1QJMZ5G"
+        # TODO:
     #    google_search_console = "0123457890abcdefg"
     
     [extra.comments]
