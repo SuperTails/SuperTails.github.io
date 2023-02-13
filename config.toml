@@ -57,8 +57,8 @@ smart_punctuation = false
         ]
     
     [extra.social]
-        author_link = "https://author-url.com/"
-        twitter = "@user"
+        author_link = "https://SuperTails.github.io"
+        #twitter = "@user"
         links = [
             { name = "Email", url = "mailto:cswovela@andrew.cmu.edu", icon = "bi-envelope-fill" },
             { name = "GitHub", url = "https://github.com/SuperTails", icon = "bi-github" },
@@ -80,8 +80,8 @@ smart_punctuation = false
 
 [languages]
     [languages.en]
-        title = "Website name"
-        description = "Website Description"
+        title = "Carson Swoveland's Website"
+        description = "(a collection of side projects)"
         generate_feed = true
         feed_filename = "atom.xml"
         taxonomies = [

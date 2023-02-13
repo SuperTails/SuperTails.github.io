@@ -55,6 +55,6 @@ It was incredibly overkill, but I had a blast making it and it is still one of m
 ### Code
 
 The source code for the project is somewhat outdated but can be found
-[on my github page here](https://github.com/SuperTails/112craft).
+[on my GitHub page here](https://github.com/SuperTails/112craft).
 
 Notably, multiplayer no longer works because Minecraft accounts are now Microsoft accounts.

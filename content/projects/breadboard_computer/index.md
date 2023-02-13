@@ -29,9 +29,12 @@ My previous attempt used a 6502 and about two dozen 74-series logic chips
 to recreate the 2A03 processor used in the Nintendo Entertainment System.
 By attaching a Raspberry Pi to the board, I could make it play Super Mario Bros, as shown below.
 
-<img src="SuperMarioBrosComputer1.jpg" alt="Breadboard NES" class="img-fluid">
+<div class="col-auto">
+    <img src="SuperMarioBrosComputer1.jpg" alt="Breadboard NES" height=300>
+    <img src="SuperMarioBrosComputer2.jpg" alt="Super Mario Bros demo" height=300>
+</div>
 
-<img src="SuperMarioBrosComputer2.jpg" alt="Super Mario Bros demo" class="img-fluid">
+<p></p>
 
 ### Future Work
 

@@ -15,18 +15,22 @@ draft = false
 
 <!-- more -->
 
-_Insert a picture of me here!_
-
 Hi! I'm Carson, and I make stuff.
 
 I'm currently a third-year Electrical and Computer Engineering student at Carnegie Mellon.
+When I'm not in classes, I like to tinker with hardware and software projects, and occasionally play games.
+You can find more detail on some of the things I've made on the [Projects Page](@/projects/_index.md).
 
-ece student
-couchbot
-software projects
-hardware projects
-silly things
-i play games
-include some tunic runes!!
-hiking
-colorado
+### A few pictures
+
+I'm from Colorado,
+and whenever I'm back there I enjoy going outside for some air that doesn't come from a classroom or workshop.
+Here's a few pictures of me in various places across Colorado:
+
+<div class="col-auto">
+    <img class="" src="skiing.jpg" height=300>
+    <img class="" src="summit.jpg" height=300>
+    <img class="" src="flowers.jpg" height=300>
+</div>
+
+<p></p>
