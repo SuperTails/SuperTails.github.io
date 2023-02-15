@@ -1,5 +1,6 @@
 +++
 date = "2022-08-13T00:00:00-05:00"
+weight = 30
 title = "6502 Computer"
 description = "lorem ipsum dolor sit amet"
 slug = "breadboard-computer"
@@ -10,7 +11,13 @@ draft = false
     tags = ["zola"]
 
 [extra]
+    time = "Ongoing"
     page_identifier = "projects-breadboard-computer"
+
+[extra.image]
+  path = "projects/breadboard-computer/breadboard_computer.jpg"
+  alt = "breadboard_computer"
+  visible_in_main = true
 +++
 
 A custom computer using a 6502 processor on a breadboard.

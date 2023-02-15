@@ -21,7 +21,7 @@ I'm currently a third-year Electrical and Computer Engineering student at Carneg
 When I'm not in classes, I like to tinker with hardware and software projects, and occasionally play games.
 You can find more detail on some of the things I've made on the [Projects Page](@/projects/_index.md).
 
-### A few pictures
+### Hobbies
 
 I'm from Colorado,
 and whenever I'm back there I enjoy going outside for some air that doesn't come from a classroom or workshop.

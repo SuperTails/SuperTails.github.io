@@ -6,4 +6,10 @@ template = "index.html"
 page_template = "page.html"
 +++
 
-Hey, welcome! I'm Carson, and this is my website. You can click on any of the links on the side to see more.
+<!--
+<div class="row justify-content-center">
+	<div class="col-auto">
+		<p>Resume</p>
+	</div>
+</div>
+-->

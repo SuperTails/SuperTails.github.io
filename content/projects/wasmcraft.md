@@ -1,5 +1,6 @@
 +++
 date = "2022-08-14T00:00:00-05:00"
+weight = 50
 title = "Wasmcraft"
 description = "An optimizing transpiler from WebAssembly to Minecraft Datapacks."
 slug = "wasmcraft"
@@ -10,7 +11,13 @@ draft = false
     tags = ["zola"]
 
 [extra]
-    page_identifier = "projects-wasmcraft"
+  time = "Summer 2022"
+  page_identifier = "projects-wasmcraft"
+
+[extra.image]
+  path = "projects/wasmcraft.webp"
+  alt = "wasmcraft"
+  visible_in_main = true
 +++
 
 An optimizing compiler from WebAssembly to code for the game Minecraft.

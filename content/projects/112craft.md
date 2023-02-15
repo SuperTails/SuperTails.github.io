@@ -1,5 +1,6 @@
 +++
 date = "2020-08-14T00:00:00-05:00"
+weight = 20
 title = "112Craft"
 description = "A feature-rich Minecraft clone written in Python"
 slug = "112craft"
@@ -10,7 +11,14 @@ draft = false
     tags = ["zola"]
 
 [extra]
+	time = "Spring 2021"
     page_identifier = "projects-112craft"
+
+[extra.image]
+  path = "projects/112craft.jpg"
+  alt = "112craft"
+  visible_in_main = true
+
 +++
 
 A feature-rich _Minecraft_ clone written in Python.
@@ -27,7 +35,6 @@ and one that I have played on and off for at least a decade now.
 lorem ipsum dolor sit amet
 So, when I needed a term project for my introductory programming class,
 I figured I could make my own version of the game.
-
 
 I then proceeded to spend the semester developing "the greatest term project in 112 history."
 It was incredibly overkill, but I had a blast making it and it is still one of my favorite projects to date.

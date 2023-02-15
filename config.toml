@@ -42,6 +42,8 @@ smart_punctuation = false
     # Use a square image (same height as width)
     avatar = "images/dangerzonecropped.jpg"
 
+    resume = "Resume.pdf"
+
     # To use a favicon convert your image to https://realfavicongenerator.net/,
     # then download and copy the package to static/images/favicon
     favicon = true
@@ -80,8 +82,8 @@ smart_punctuation = false
 
 [languages]
     [languages.en]
-        title = "Carson Swoveland's Website"
-        description = "(a collection of side projects)"
+        title = "Carson Swoveland"
+        description = "Computer Engineer, Software Developer, Tinkerer"
         generate_feed = true
         feed_filename = "atom.xml"
         taxonomies = [
