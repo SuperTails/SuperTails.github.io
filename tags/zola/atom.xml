@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Carson Swoveland - zola</title>
+	<subtitle>Computer Engineer, Software Developer, Tinkerer</subtitle>
+	<link href="https://SuperTails.github.io/tags/zola/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://SuperTails.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-08-14T00:00:00-05:00</updated>
+	<id>https://SuperTails.github.io/tags/zola/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Wasmcraft</title>
+		<published>2022-08-14T00:00:00-05:00</published>
+		<updated>2022-08-14T00:00:00-05:00</updated>
+		<link rel="alternate" href="https://SuperTails.github.io/projects/wasmcraft/" type="text/html"/>
+		<id>https://SuperTails.github.io/projects/wasmcraft/</id>
+		<content type="html">&lt;p&gt;An optimizing compiler from WebAssembly to code for the game Minecraft.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;wCHB1UgwM9o&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;Minecraft&lt;&#x2F;em&gt; is a popular sandbox game that mostly revolves around placing and breaking blocks.
+As with many sandbox games, it features cheat commands that can perform various actions.
+These include actions like filling areas, teleporting creatures, or updating scores.
+Commands can be bundled into a group called a &amp;quot;datapack&amp;quot;, and as it turns out,
+these datapacks are actually turing-complete&lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;xkcd.com&#x2F;2556&#x2F;&quot;&gt;¹&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Wasmcraft is a tool to convert programs in WebAssembly (a popular form of code for browsers)
+into a &lt;em&gt;Minecraft&lt;&#x2F;em&gt; datapack.
+This means, in essence, that you can run arbitrary programs inside of the game.
+The video above demonstrates several different programs all compiled with Wasmcraft
+running inside of &lt;em&gt;Minecraft&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Notably, this makes me the first person in the world to be able to play Doom in unmodified (&amp;quot;vanilla&amp;quot;) &lt;em&gt;Minecraft&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Optimizations for better performance
+&lt;ul&gt;
+&lt;li&gt;Strength reduction&lt;&#x2F;li&gt;
+&lt;li&gt;Constant folding&lt;&#x2F;li&gt;
+&lt;li&gt;Copy elimination&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Full SDK for writing programs
+&lt;ul&gt;
+&lt;li&gt;Compiler&lt;&#x2F;li&gt;
+&lt;li&gt;Debugger&lt;&#x2F;li&gt;
+&lt;li&gt;Simulator&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Minimal setup&lt;&#x2F;li&gt;
+&lt;li&gt;Works with many existing codebases&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;&#x2F;h3&gt;
+&lt;p&gt;The code can be found on my GitHub page &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;SuperTails&#x2F;wasmcraft2&quot;&gt;here&lt;&#x2F;a&gt; if you would like to give it a try.
+PRs and bug reports are accepted!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>6502 Computer</title>
+		<published>2022-08-13T00:00:00-05:00</published>
+		<updated>2022-08-13T00:00:00-05:00</updated>
+		<link rel="alternate" href="https://SuperTails.github.io/projects/breadboard-computer/" type="text/html"/>
+		<id>https://SuperTails.github.io/projects/breadboard-computer/</id>
+		<content type="html">&lt;p&gt;A custom computer using a 6502 processor on a breadboard.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;36lvWIOPbbE&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h3&gt;
+&lt;p&gt;This is a &#x27;complete&#x27; computer with RAM, ROM, a serial port, and a screen.
+In the video above I have programmed it to play Tic-Tac-Toe.&lt;&#x2F;p&gt;
+&lt;p&gt;I have actually built a number of these computers before.
+My previous attempt used a 6502 and about two dozen 74-series logic chips
+to recreate the 2A03 processor used in the Nintendo Entertainment System.
+By attaching a Raspberry Pi to the board, I could make it play Super Mario Bros, as shown below.&lt;&#x2F;p&gt;
+&lt;div class=&quot;col-auto&quot;&gt;
+    &lt;img src=&quot;SuperMarioBrosComputer1.jpg&quot; alt=&quot;Breadboard NES&quot; height=300&gt;
+    &lt;img src=&quot;SuperMarioBrosComputer2.jpg&quot; alt=&quot;Super Mario Bros demo&quot; height=300&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;future-work&quot;&gt;Future Work&lt;&#x2F;h3&gt;
+&lt;p&gt;Next semester (Spring 2023) I am going to teach a class on how to build one of these computers
+for people with no prior experience.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;d like to revisit the breadboard NES project at some point,
+now that I have a better idea of what&#x27;s causing some of the timing problems.
+Maybe I&#x27;ll design it out beforehand and make a proper PCB for it.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>112Craft</title>
+		<published>2020-08-14T00:00:00-05:00</published>
+		<updated>2020-08-14T00:00:00-05:00</updated>
+		<link rel="alternate" href="https://SuperTails.github.io/projects/112craft/" type="text/html"/>
+		<id>https://SuperTails.github.io/projects/112craft/</id>
+		<content type="html">&lt;p&gt;A feature-rich &lt;em&gt;Minecraft&lt;&#x2F;em&gt; clone written in Python.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;dcvgfXAssoc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;Minecraft&lt;&#x2F;em&gt; is one of the most popular games of all time,
+and one that I have played on and off for at least a decade now.&lt;&#x2F;p&gt;
+&lt;p&gt;lorem ipsum dolor sit amet
+So, when I needed a term project for my introductory programming class,
+I figured I could make my own version of the game.&lt;&#x2F;p&gt;
+&lt;p&gt;I then proceeded to spend the semester developing &amp;quot;the greatest term project in 112 history.&amp;quot;
+It was incredibly overkill, but I had a blast making it and it is still one of my favorite projects to date.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Infinite worlds streamed to&#x2F;from disk&lt;&#x2F;li&gt;
+&lt;li&gt;Procedural generation, including:
+&lt;ul&gt;
+&lt;li&gt;Caves&lt;&#x2F;li&gt;
+&lt;li&gt;Ores&lt;&#x2F;li&gt;
+&lt;li&gt;Biomes&lt;&#x2F;li&gt;
+&lt;li&gt;Alternate dimensions&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Survival elements, including:
+&lt;ul&gt;
+&lt;li&gt;Resource gathering&lt;&#x2F;li&gt;
+&lt;li&gt;Crafting&lt;&#x2F;li&gt;
+&lt;li&gt;Health&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Switch between OpenGL and pure-Python rendering&lt;&#x2F;li&gt;
+&lt;li&gt;Editable terrain with dynamic lighting&lt;&#x2F;li&gt;
+&lt;li&gt;AI pathfinding&lt;&#x2F;li&gt;
+&lt;li&gt;Networked multiplayer compatible with official Minecraft clients&lt;&#x2F;li&gt;
+&lt;li&gt;Data-driven modeling and animation system&lt;&#x2F;li&gt;
+&lt;li&gt;Translucent textures&lt;&#x2F;li&gt;
+&lt;li&gt;In-world circuit simulation (&#x27;redstone&#x27;)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;&#x2F;h3&gt;
+&lt;p&gt;The source code for the project is somewhat outdated but can be found
+&lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;SuperTails&#x2F;112craft&quot;&gt;on my GitHub page here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Notably, multiplayer no longer works because Minecraft accounts are now Microsoft accounts.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

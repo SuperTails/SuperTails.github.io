@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Carson Swoveland - team</title>
+	<subtitle>Computer Engineer, Software Developer, Tinkerer</subtitle>
+	<link href="https://SuperTails.github.io/tags/team/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://SuperTails.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-08-13T00:00:00-05:00</updated>
+	<id>https://SuperTails.github.io/tags/team/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Couchbot</title>
+		<published>2022-08-13T00:00:00-05:00</published>
+		<updated>2022-08-13T00:00:00-05:00</updated>
+		<link rel="alternate" href="https://SuperTails.github.io/projects/couchbot/" type="text/html"/>
+		<id>https://SuperTails.github.io/projects/couchbot/</id>
+		<content type="html">&lt;p&gt;A motorized couch that is the future of transportation.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;img src=&quot;couchbot2.jpg&quot; height=300&gt;
+&lt;p&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h3&gt;
+&lt;p&gt;Perhaps Couchbot, a motorized remote-control couch, is not actually the future of transportation.
+But that doesn&#x27;t mean it isn&#x27;t a blast to drive!&lt;&#x2F;p&gt;
+&lt;p&gt;I implemented much of the electrical control board, and also helped write the firmware.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Controlled using a standard PlayStation 3 controller&lt;&#x2F;li&gt;
+&lt;li&gt;Top speed of 15 miles per hour&lt;&#x2F;li&gt;
+&lt;li&gt;A terrifying 3 horsepower&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Robobuggy</title>
+		<published>2022-08-13T00:00:00-05:00</published>
+		<updated>2022-08-13T00:00:00-05:00</updated>
+		<link rel="alternate" href="https://SuperTails.github.io/projects/robobuggy/" type="text/html"/>
+		<id>https://SuperTails.github.io/projects/robobuggy/</id>
+		<content type="html">&lt;p&gt;An automonous version of a long-standing CMU tradition.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;img src=&quot;robobuggy_cropped.jpg&quot; height=500&gt;
+&lt;p&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;what-s-a-buggy&quot;&gt;What&#x27;s a Buggy?&lt;&#x2F;h3&gt;
+&lt;p&gt;If you&#x27;ve never been to Carnegie Mellon University, you probably don&#x27;t know what a &amp;quot;buggy&amp;quot; is.
+Buggy is a CMU sport somewhat similar to a &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Soap_Box_Derby&quot;&gt;soap box derby&lt;&#x2F;a&gt;.
+Unlike a soap box derby, however, dozens of engineering students work year-round to make the buggies
+as aerodynamic, lightweight, and &lt;em&gt;fast&lt;&#x2F;em&gt; as possible.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;what-s-a-robobuggy&quot;&gt;What&#x27;s a RoboBuggy?&lt;&#x2F;h3&gt;
+&lt;p&gt;RoboBuggy is a spin-off project hosted by the Carnegie Mellon University Robotics Club.
+The goal of RoboBuggy is to build a fully-autonomous buggy that can complete a race without human intervention.
+The stretch goal, of course, is to beat a few human buggy teams in the process.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;work&quot;&gt;Work&lt;&#x2F;h3&gt;
+&lt;p&gt;I implemented many of the firmware and electrical features, including:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Serial communication hardware
+&lt;ul&gt;
+&lt;li&gt;Uses bidirectional level shifting and multiplexing&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Steering control&lt;&#x2F;li&gt;
+&lt;li&gt;Safety features, including an arming sequence and a dead man&#x27;s switch&lt;&#x2F;li&gt;
+&lt;li&gt;Radio control reception and decoding&lt;&#x2F;li&gt;
+&lt;li&gt;Brake solenoid control board design and assembly&lt;&#x2F;li&gt;
+&lt;li&gt;Logging radio for interactive debugging&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+</feed>

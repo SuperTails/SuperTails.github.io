@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Carson Swoveland - projects</title>
+	<subtitle>Computer Engineer, Software Developer, Tinkerer</subtitle>
+	<link href="https://SuperTails.github.io/categories/projects/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://SuperTails.github.io"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2022-08-14T00:00:00-05:00</updated>
+	<id>https://SuperTails.github.io/categories/projects/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Wasmcraft</title>
+		<published>2022-08-14T00:00:00-05:00</published>
+		<updated>2022-08-14T00:00:00-05:00</updated>
+		<link rel="alternate" href="https://SuperTails.github.io/projects/wasmcraft/" type="text/html"/>
+		<id>https://SuperTails.github.io/projects/wasmcraft/</id>
+		<content type="html">&lt;p&gt;An optimizing compiler from WebAssembly to code for the game Minecraft.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;wCHB1UgwM9o&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;Minecraft&lt;&#x2F;em&gt; is a popular sandbox game that mostly revolves around placing and breaking blocks.
+As with many sandbox games, it features cheat commands that can perform various actions.
+These include actions like filling areas, teleporting creatures, or updating scores.
+Commands can be bundled into a group called a &amp;quot;datapack&amp;quot;, and as it turns out,
+these datapacks are actually turing-complete&lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;xkcd.com&#x2F;2556&#x2F;&quot;&gt;¹&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Wasmcraft is a tool to convert programs in WebAssembly (a popular form of code for browsers)
+into a &lt;em&gt;Minecraft&lt;&#x2F;em&gt; datapack.
+This means, in essence, that you can run arbitrary programs inside of the game.
+The video above demonstrates several different programs all compiled with Wasmcraft
+running inside of &lt;em&gt;Minecraft&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Notably, this makes me the first person in the world to be able to play Doom in unmodified (&amp;quot;vanilla&amp;quot;) &lt;em&gt;Minecraft&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Optimizations for better performance
+&lt;ul&gt;
+&lt;li&gt;Strength reduction&lt;&#x2F;li&gt;
+&lt;li&gt;Constant folding&lt;&#x2F;li&gt;
+&lt;li&gt;Copy elimination&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Full SDK for writing programs
+&lt;ul&gt;
+&lt;li&gt;Compiler&lt;&#x2F;li&gt;
+&lt;li&gt;Debugger&lt;&#x2F;li&gt;
+&lt;li&gt;Simulator&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Minimal setup&lt;&#x2F;li&gt;
+&lt;li&gt;Works with many existing codebases&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;&#x2F;h3&gt;
+&lt;p&gt;The code can be found on my GitHub page &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;SuperTails&#x2F;wasmcraft2&quot;&gt;here&lt;&#x2F;a&gt; if you would like to give it a try.
+PRs and bug reports are accepted!&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>6502 Computer</title>
+		<published>2022-08-13T00:00:00-05:00</published>
+		<updated>2022-08-13T00:00:00-05:00</updated>
+		<link rel="alternate" href="https://SuperTails.github.io/projects/breadboard-computer/" type="text/html"/>
+		<id>https://SuperTails.github.io/projects/breadboard-computer/</id>
+		<content type="html">&lt;p&gt;A custom computer using a 6502 processor on a breadboard.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;36lvWIOPbbE&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h3&gt;
+&lt;p&gt;This is a &#x27;complete&#x27; computer with RAM, ROM, a serial port, and a screen.
+In the video above I have programmed it to play Tic-Tac-Toe.&lt;&#x2F;p&gt;
+&lt;p&gt;I have actually built a number of these computers before.
+My previous attempt used a 6502 and about two dozen 74-series logic chips
+to recreate the 2A03 processor used in the Nintendo Entertainment System.
+By attaching a Raspberry Pi to the board, I could make it play Super Mario Bros, as shown below.&lt;&#x2F;p&gt;
+&lt;div class=&quot;col-auto&quot;&gt;
+    &lt;img src=&quot;SuperMarioBrosComputer1.jpg&quot; alt=&quot;Breadboard NES&quot; height=300&gt;
+    &lt;img src=&quot;SuperMarioBrosComputer2.jpg&quot; alt=&quot;Super Mario Bros demo&quot; height=300&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;future-work&quot;&gt;Future Work&lt;&#x2F;h3&gt;
+&lt;p&gt;Next semester (Spring 2023) I am going to teach a class on how to build one of these computers
+for people with no prior experience.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;d like to revisit the breadboard NES project at some point,
+now that I have a better idea of what&#x27;s causing some of the timing problems.
+Maybe I&#x27;ll design it out beforehand and make a proper PCB for it.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Couchbot</title>
+		<published>2022-08-13T00:00:00-05:00</published>
+		<updated>2022-08-13T00:00:00-05:00</updated>
+		<link rel="alternate" href="https://SuperTails.github.io/projects/couchbot/" type="text/html"/>
+		<id>https://SuperTails.github.io/projects/couchbot/</id>
+		<content type="html">&lt;p&gt;A motorized couch that is the future of transportation.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;img src=&quot;couchbot2.jpg&quot; height=300&gt;
+&lt;p&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h3&gt;
+&lt;p&gt;Perhaps Couchbot, a motorized remote-control couch, is not actually the future of transportation.
+But that doesn&#x27;t mean it isn&#x27;t a blast to drive!&lt;&#x2F;p&gt;
+&lt;p&gt;I implemented much of the electrical control board, and also helped write the firmware.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Controlled using a standard PlayStation 3 controller&lt;&#x2F;li&gt;
+&lt;li&gt;Top speed of 15 miles per hour&lt;&#x2F;li&gt;
+&lt;li&gt;A terrifying 3 horsepower&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Robobuggy</title>
+		<published>2022-08-13T00:00:00-05:00</published>
+		<updated>2022-08-13T00:00:00-05:00</updated>
+		<link rel="alternate" href="https://SuperTails.github.io/projects/robobuggy/" type="text/html"/>
+		<id>https://SuperTails.github.io/projects/robobuggy/</id>
+		<content type="html">&lt;p&gt;An automonous version of a long-standing CMU tradition.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;img src=&quot;robobuggy_cropped.jpg&quot; height=500&gt;
+&lt;p&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;what-s-a-buggy&quot;&gt;What&#x27;s a Buggy?&lt;&#x2F;h3&gt;
+&lt;p&gt;If you&#x27;ve never been to Carnegie Mellon University, you probably don&#x27;t know what a &amp;quot;buggy&amp;quot; is.
+Buggy is a CMU sport somewhat similar to a &lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Soap_Box_Derby&quot;&gt;soap box derby&lt;&#x2F;a&gt;.
+Unlike a soap box derby, however, dozens of engineering students work year-round to make the buggies
+as aerodynamic, lightweight, and &lt;em&gt;fast&lt;&#x2F;em&gt; as possible.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;what-s-a-robobuggy&quot;&gt;What&#x27;s a RoboBuggy?&lt;&#x2F;h3&gt;
+&lt;p&gt;RoboBuggy is a spin-off project hosted by the Carnegie Mellon University Robotics Club.
+The goal of RoboBuggy is to build a fully-autonomous buggy that can complete a race without human intervention.
+The stretch goal, of course, is to beat a few human buggy teams in the process.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;work&quot;&gt;Work&lt;&#x2F;h3&gt;
+&lt;p&gt;I implemented many of the firmware and electrical features, including:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Serial communication hardware
+&lt;ul&gt;
+&lt;li&gt;Uses bidirectional level shifting and multiplexing&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Steering control&lt;&#x2F;li&gt;
+&lt;li&gt;Safety features, including an arming sequence and a dead man&#x27;s switch&lt;&#x2F;li&gt;
+&lt;li&gt;Radio control reception and decoding&lt;&#x2F;li&gt;
+&lt;li&gt;Brake solenoid control board design and assembly&lt;&#x2F;li&gt;
+&lt;li&gt;Logging radio for interactive debugging&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>112Craft</title>
+		<published>2020-08-14T00:00:00-05:00</published>
+		<updated>2020-08-14T00:00:00-05:00</updated>
+		<link rel="alternate" href="https://SuperTails.github.io/projects/112craft/" type="text/html"/>
+		<id>https://SuperTails.github.io/projects/112craft/</id>
+		<content type="html">&lt;p&gt;A feature-rich &lt;em&gt;Minecraft&lt;&#x2F;em&gt; clone written in Python.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;dcvgfXAssoc&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; allowfullscreen&gt;&lt;&#x2F;iframe&gt;
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;Minecraft&lt;&#x2F;em&gt; is one of the most popular games of all time,
+and one that I have played on and off for at least a decade now.&lt;&#x2F;p&gt;
+&lt;p&gt;lorem ipsum dolor sit amet
+So, when I needed a term project for my introductory programming class,
+I figured I could make my own version of the game.&lt;&#x2F;p&gt;
+&lt;p&gt;I then proceeded to spend the semester developing &amp;quot;the greatest term project in 112 history.&amp;quot;
+It was incredibly overkill, but I had a blast making it and it is still one of my favorite projects to date.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Infinite worlds streamed to&#x2F;from disk&lt;&#x2F;li&gt;
+&lt;li&gt;Procedural generation, including:
+&lt;ul&gt;
+&lt;li&gt;Caves&lt;&#x2F;li&gt;
+&lt;li&gt;Ores&lt;&#x2F;li&gt;
+&lt;li&gt;Biomes&lt;&#x2F;li&gt;
+&lt;li&gt;Alternate dimensions&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Survival elements, including:
+&lt;ul&gt;
+&lt;li&gt;Resource gathering&lt;&#x2F;li&gt;
+&lt;li&gt;Crafting&lt;&#x2F;li&gt;
+&lt;li&gt;Health&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Switch between OpenGL and pure-Python rendering&lt;&#x2F;li&gt;
+&lt;li&gt;Editable terrain with dynamic lighting&lt;&#x2F;li&gt;
+&lt;li&gt;AI pathfinding&lt;&#x2F;li&gt;
+&lt;li&gt;Networked multiplayer compatible with official Minecraft clients&lt;&#x2F;li&gt;
+&lt;li&gt;Data-driven modeling and animation system&lt;&#x2F;li&gt;
+&lt;li&gt;Translucent textures&lt;&#x2F;li&gt;
+&lt;li&gt;In-world circuit simulation (&#x27;redstone&#x27;)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;code&quot;&gt;Code&lt;&#x2F;h3&gt;
+&lt;p&gt;The source code for the project is somewhat outdated but can be found
+&lt;a rel=&quot;noopener nofollow noreferrer&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;SuperTails&#x2F;112craft&quot;&gt;on my GitHub page here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Notably, multiplayer no longer works because Minecraft accounts are now Microsoft accounts.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
