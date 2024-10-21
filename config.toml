@@ -63,6 +63,7 @@ smart_punctuation = false
         #twitter = "@user"
         github = "SuperTails"
         linkedin = "carson-swoveland-b45116231"
+        email = "cswovela@andrew.cmu.edu"
             #{ name = "Email", url = "mailto:cswovela@andrew.cmu.edu", icon = "bi-envelope-fill" },
         #]
 
