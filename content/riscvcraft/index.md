@@ -11,8 +11,8 @@ time = "Ongoing"
 summary = "Booting an OS where an OS should not be booted."
 
 [extra.image]
-path = "projects/robobuggy/rolls.jpg"
-alt = "robobuggy"
+path = "riscvcraft/gdb.png"
+alt = "riscvcraft"
 visible_in_main = true
 +++
 

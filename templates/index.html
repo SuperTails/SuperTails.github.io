@@ -3,44 +3,48 @@
 {% block content %}
     {% for page in paginator.pages %}
       <section class="post animated fadeInDown">
-        <div class="post-image">
-          {% if page.extra.image %}
-            <img src="{{page.extra.image.path}}" alt="{{page.extra.image.alt}}">
-          {% endif %}
-        </div>
-        <div class="post-title">
-                <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
-        </div>
-        <div class="post-content">
-              <p>
-                {% if page.extra.summary %}
-                    {{ page.extra.summary | safe | striptags }}
-                {% else %}
-                    {{ page.content | safe | striptags | truncate(length=100) }}
-                {% endif %}
-              </p>
-        </div>
-        <div class="post-footer">
-              <div class="meta">
-                <div class="info">
-                  {% if page.date %}
-                    <i class="far fa-sun"></i>
-                    <span class="date">
-                      {{ page.date | date(format=trans(key="date_format", lang=lang)) }}
-                    </span>
-                  {% endif %}
-                  {% if config.extra.comment %}
-					          <i class="far fa-comments"></i>
-                    <a href="{{ page.permalink }}#comments">Comments</a>
-                  {% endif %}
-                  {% if page.taxonomies.tags %}
-                    <i class="fas fa-tags"></i>
-                    {% for tag in page.taxonomies.tags %}
-                      <a class="tag" href="{{ get_taxonomy_url(kind="tags", name=tag, lang=page.lang) | safe }}">&nbsp;{{tag}}</a>
-                    {% endfor %}
-                  {% endif %}
-                </div>
-              </div>
+        <div class="hbox">
+          <div class="expand">
+            <div class="post-title">
+                    <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+            </div>
+            <div class="post-content">
+                  <p>
+                    {% if page.extra.summary %}
+                        {{ page.extra.summary | safe | striptags }}
+                    {% else %}
+                        {{ page.content | safe | striptags | truncate(length=100) }}
+                    {% endif %}
+                  </p>
+            </div>
+            <div class="post-footer">
+                  <div class="meta">
+                    <div class="info">
+                      {% if page.date %}
+                        <i class="far fa-sun"></i>
+                        <span class="date">
+                          {{ page.date | date(format=trans(key="date_format", lang=lang)) }}
+                        </span>
+                      {% endif %}
+                      {% if config.extra.comment %}
+    					          <i class="far fa-comments"></i>
+                        <a href="{{ page.permalink }}#comments">Comments</a>
+                      {% endif %}
+                      {% if page.taxonomies.tags %}
+                        <i class="fas fa-tags"></i>
+                        {% for tag in page.taxonomies.tags %}
+                          <a class="tag" href="{{ get_taxonomy_url(kind="tags", name=tag, lang=page.lang) | safe }}">&nbsp;{{tag}}</a>
+                        {% endfor %}
+                      {% endif %}
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="post-image">
+            {% if page.extra.image %}
+              <img src="{{page.extra.image.path}}" alt="{{page.extra.image.alt}}">
+            {% endif %}
+          </div>
         </div>
       </section>
     {% endfor %}

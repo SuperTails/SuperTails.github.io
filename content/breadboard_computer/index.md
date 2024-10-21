@@ -12,7 +12,7 @@ page_identifier = "projects-breadboard-computer"
 summary = "Teaching a course on homebrew computer design."
 
 [extra.image]
-path = "projects/breadboard-computer/breadboard_computer.jpg"
+path = "breadboard-computer/breadboard_computer.jpg"
 alt = "breadboard_computer"
 visible_in_main = true
 +++

@@ -84,6 +84,9 @@
       {% block more_social_link %}
       {% endblock more_social_link %}
     </ul>
+    <div class="resume">
+      <a href="{{ config.extra.resume }}">Résumé</a>
+    </div>
     <div class="footer">
       {% block footer %}
       <span>Designed by </span><a href="https://www.caicai.me">CaiCai</a>
@@ -105,8 +108,6 @@
         {%- if config.extra.show.tags -%}
         <li><a {% if language_site_path is starting_with("/tags") %}class="current" {% endif %} href="{{ get_url(path="@/_index.md", lang=lang) }}tags">{{ trans(key="tags", lang=lang) }}</a></li>
         {%- endif -%}
-        <li><a {% if language_site_path is starting_with("/archive") %}class="current" {% endif %}
-            href="{{ get_url(path="@/archive/_index.md", lang=lang) }}">{{ trans(key="archive", lang=lang) }}</a></li>
         {%- if config.extra.show.links -%}
         <li><a {% if language_site_path is starting_with("/links") %}class="current" {% endif %} href="{{ get_url(path="@/links/_index.md", lang=lang) }}">{{ trans(key="links", lang=lang) }}</a></li>
         {%- endif -%}

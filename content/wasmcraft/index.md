@@ -12,7 +12,7 @@ page_identifier = "projects-wasmcraft"
 summary = "An optimizing transpiler from WebAssembly to Minecraft Datapacks."
 
 [extra.image]
-path = "projects/wasmcraft.webp"
+path = "wasmcraft/wasmcraft.webp"
 alt = "wasmcraft"
 visible_in_main = true
 +++

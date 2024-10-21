@@ -12,7 +12,7 @@ page_identifier = "projects-robobuggy"
 summary = "A self-charging, award-winning, GPS-enabled dumbwatch."
 
 [extra.image]
-path = "projects/landhopper/on_wrist.png"
+path = "landhopper/on_wrist.png"
 alt = "landhopper"
 visible_in_main = true
 +++

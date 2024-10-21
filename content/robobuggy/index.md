@@ -13,7 +13,7 @@ page_identifier = "projects-robobuggy"
 summary = "An automonous version of a long-standing CMU tradition."
 
 [extra.image]
-path = "projects/robobuggy/rolls.jpg"
+path = "robobuggy/rolls.jpg"
 alt = "robobuggy"
 visible_in_main = true
 +++
