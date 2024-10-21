@@ -1,9 +1,9 @@
 +++
 title = "Home"
 description = "Home site description."
-#sort_by = "date"
+sort_by = "weight"
 template = "index.html"
-page_template = "page.html"
+paginate_by = 10
 +++
 
 <!--

@@ -2,7 +2,7 @@
 base_url = "https://SuperTails.github.io"
 
 default_language = "en"
-theme = "ataraxia"
+theme = "anatole-zola"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -61,11 +61,10 @@ smart_punctuation = false
     [extra.social]
         author_link = "https://SuperTails.github.io"
         #twitter = "@user"
-        links = [
-            { name = "Email", url = "mailto:cswovela@andrew.cmu.edu", icon = "bi-envelope-fill" },
-            { name = "GitHub", url = "https://github.com/SuperTails", icon = "bi-github" },
-            { name = "LinkedIn", url = "https://www.linkedin.com/in/carson-swoveland-b45116231/", icon = "bi-linkedin" },
-        ]
+        github = "SuperTails"
+        linkedin = "carson-swoveland-b45116231"
+            #{ name = "Email", url = "mailto:cswovela@andrew.cmu.edu", icon = "bi-envelope-fill" },
+        #]
 
     [extra.seo]
         google_analytics = "G-X7Q1QJMZ5G"
@@ -84,14 +83,17 @@ smart_punctuation = false
     [languages.en]
         title = "Carson Swoveland"
         description = "Computer Engineer, Software Developer, Tinkerer"
-        generate_feed = true
-        feed_filename = "atom.xml"
+        generate_feeds = true
+        feed_filenames = ["atom.xml"]
         taxonomies = [
             { name = "tags", feed = true, paginate_by = 5  },
-            { name = "categories", feed = true, paginate_by = 5 }
         ]
 
     [languages.en.translations]
+        home = "Home"
+        about = "About"
+        archive = "Archive"
+        date_format = "%Y-%m-%d"
         post = "Post"
         category = "Category"
         tag = "Tag"

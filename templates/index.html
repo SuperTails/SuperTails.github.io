@@ -1,63 +1,65 @@
-{% extends "base.html" %}
-{% import "macros/utilities/images.html" as images %}
-{% import "macros/utilities/menus.html" as menus %}
+{% extends "basic.html" %}
 
-
-{%- block title -%}{{ config.title | safe }}{%- endblock title -%}
-
-
-{%- block head -%}
-  {{ head::head(page = section) }}
-{%- endblock head -%}
-
-
-{%- block sidebar -%}
-  {{ sidebar::sidebar(type = "section") }}
-{%- endblock sidebar -%}
-
-
-{%- block header -%}
-  {{ header::header(page = section, type = "section") }}
-{%- endblock header -%}
-
-
-{%- block content -%}
-  <main class="container">
-    <div class="row justify-content-center mt-5 mb-3">
-      <div class="col-auto">
-        <div class="index-avatar border border-3 rounded-circle">
-          {{ images::get_avatar() }}
+{% block content %}
+    {% for page in paginator.pages %}
+      <section class="post animated fadeInDown">
+        <div class="post-image">
+          {% if page.extra.image %}
+            <img src="{{page.extra.image.path}}" alt="{{page.extra.image.alt}}">
+          {% endif %}
         </div>
-      </div>
-    </div>
-    <div class="row justify-content-center mb-5">
-      <div class="col-11 col-sm-8 col-md-7 col-xl-6 text-center">  
-        <div class="mb-1">
-            <a
-              href="{{ config.extra.social.author_link | safe }}"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-decoration-none"
-            >
-                <h1 class="fs-3">{{ config.title | safe }}</h1>
+        <div class="post-title">
+                <h3><a href="{{ page.permalink }}">{{ page.title }}</a></h3>
+        </div>
+        <div class="post-content">
+              <p>
+                {% if page.extra.summary %}
+                    {{ page.extra.summary | safe | striptags }}
+                {% else %}
+                    {{ page.content | safe | striptags | truncate(length=100) }}
+                {% endif %}
+              </p>
+        </div>
+        <div class="post-footer">
+              <div class="meta">
+                <div class="info">
+                  {% if page.date %}
+                    <i class="far fa-sun"></i>
+                    <span class="date">
+                      {{ page.date | date(format=trans(key="date_format", lang=lang)) }}
+                    </span>
+                  {% endif %}
+                  {% if config.extra.comment %}
+					          <i class="far fa-comments"></i>
+                    <a href="{{ page.permalink }}#comments">Comments</a>
+                  {% endif %}
+                  {% if page.taxonomies.tags %}
+                    <i class="fas fa-tags"></i>
+                    {% for tag in page.taxonomies.tags %}
+                      <a class="tag" href="{{ get_taxonomy_url(kind="tags", name=tag, lang=page.lang) | safe }}">&nbsp;{{tag}}</a>
+                    {% endfor %}
+                  {% endif %}
+                </div>
+              </div>
+        </div>
+      </section>
+    {% endfor %}
+    <div class="pagination">
+		  <ul class="clearfix">
+        {% if paginator.next %}
+          <li class="next pagbuttons">
+            <a class="btn" role="navigation" href="{{ paginator.next }}" aria-label="{{ trans(key="next_page", lang=lang) }}">
+              {{ trans(key="next_page", lang=lang) }}
             </a>
-        </div>
-        <div class="fs-6 fw-light mb-2">
-            {{ config.description | safe }}
-        </div>
-        <div class="row justify-content-center fs-4">
-          {{ menus::social_links() }}
-        </div>
-        <div class="row justify-content-center fs-4">
-          <a href="{{ config.extra.resume | safe }}">Résumé</a>
-        </div>
-      </div>
+          </li>
+        {% endif %}
+        {% if paginator.previous %}
+          <li class="pre pagbuttons">
+            <a class="btn" role="navigation" href="{{ paginator.previous }}" aria-label="{{ trans(key="last_page", lang=lang) }}">
+              {{ trans(key="last_page", lang=lang) }}
+            </a>
+          </li>
+        {% endif %}
+      </ul>
     </div>
-    <div class="row justify-content-center mb-5">
-      <div class="col-11 col-lg-10 col-xxl-9">
-        {{ section.content | safe }}
-      </div>
-    </div>
-  </main>
-{%- endblock content -%}
-
+{% endblock content %}
